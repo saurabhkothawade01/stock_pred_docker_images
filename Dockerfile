@@ -9,3 +9,5 @@ RUN pip3 install scikit-learn
 COPY stock.csv /
 
 COPY pred.py /
+
+CMD python3 pred.py 
