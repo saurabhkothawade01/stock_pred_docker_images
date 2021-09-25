@@ -10,9 +10,4 @@ COPY stock.csv /
 
 COPY pred.py /
 
-COPY hello.py /
-
-CMD ["/hello.py"]
-
-ENTRYPOINT ["python3"]
 
