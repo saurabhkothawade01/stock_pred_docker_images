@@ -10,7 +10,7 @@ COPY stock.csv /
 
 COPY pred.py /
 
-ADD hello.py /
+COPY hello.py /
 
 CMD ["/hello.py"]
 
