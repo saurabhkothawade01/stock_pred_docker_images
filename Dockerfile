@@ -10,4 +10,4 @@ COPY stock.csv /
 
 COPY pred.py /
 
-CMD python3 pred.py 
+RUN python3 /pred.py
